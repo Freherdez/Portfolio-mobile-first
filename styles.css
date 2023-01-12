@@ -49,3 +49,18 @@ flex-grow: 0;
 .sub_text {
   color: #36B37E;
 }
+
+.supporting {
+  width: 327px;
+  height: 164px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172B4D;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
