@@ -1,7 +1,6 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="./img/microverselogo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
@@ -22,13 +21,13 @@
 
 > Say Hello.
 
-**Hello World** It is a project that puts into practice the correct use of linters on Git Hub, it also helps us encourage the use of comments and reinforce the correct performance with GitHub flow.
+**Portfolio: setup and mobile first** This is a project to strengthen our knowledge in HTML and CSS, but above all to put into practice the correct order of the elements through Flexbox.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Html-Css-Git
+> Html-Css-Flexbox-Figma
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
