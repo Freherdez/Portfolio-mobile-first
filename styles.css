@@ -118,3 +118,14 @@ li {
   left: 80px;
   bottom: 320px;
 }
+
+.button {
+  width: 327px;
+  height: 48px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  border-color: transparent;
+  padding-top: 45px;
+}
+
