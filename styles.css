@@ -97,57 +97,24 @@
   flex-grow: 0;
 }
 
-.social {
-  width: 170.17px;
-  height: 20px;
-  text-align: center;
-  padding-top: -15px;
-  flex: flex;
-  justify-content: space-between;
-}
-
-#twitter {
-  padding: 0 10px 0 0;
-}
-
-#linkedin {
-  padding: 0 10px 0 0;
-}
-
-#medium {
-  padding: 0;
-}
-
-#github {
-  padding: 0 0 0 10px;
-}
-
-#angellist {
-  padding: 0 0 0 10px;
+li {
+  list-style: none;
 }
 
 #button_social {
-  border-style: none;
-  border: 0;
-  padding: 0;
+  width: 170px;
+  height: 20px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
 }
 
-.button {
+#button_social {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding: 8px;
+  justify-content: space-between;
+  align-items: center;
   position: absolute;
-  width: 40px;
-  height: 40px;
-  bottom: 180px;
-  border-color: transparent;
-}
-
-#button {
-  width: 24px;
-  height: 24px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  left: 80px;
+  bottom: 320px;
 }
