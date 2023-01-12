@@ -17,11 +17,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 10px;
 }
 
 .union {
-  padding-right: 35px;
+  padding-right: 15px;
 }
 
 .logo_welcome {
@@ -32,6 +31,7 @@
   position: relative;
   width: 114px;
   height: 48px;
+  bottom: 5px;
 }
 
 .wlc {
