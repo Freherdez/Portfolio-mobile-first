@@ -21,6 +21,10 @@
   padding-right: 15px;
 }
 
+.phone {
+  padding: 3px;
+}
+
 #time {
   display: inline;
   position: relative;
