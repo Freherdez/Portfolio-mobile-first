@@ -118,23 +118,3 @@ li {
   bottom: 250px;
 }
 
-.button {
-  width: 327px;
-  height: 48px;
-  flex: none;
-  order: 3;
-  flex-grow: 0;
-  border-color: transparent;
-  padding-top: 45px;
-}
-
-#button {
-  display: flex;
-  align-items: center;
-  padding: 8px;
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  right: 45%;
-  bottom: 150px;
-}
