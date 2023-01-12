@@ -2,6 +2,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(img/background3.png);
+  position: absolute;
+  width: 630.38px;
+  height: 648px;
+  left: -126.38px;
+  top: 98.12px;
 }
 
 .header1 {
@@ -70,5 +75,26 @@ flex-grow: 0;
   height: 20px;
   text-align: center;
   padding-top: -15px;
-  flex: none;
+  flex: flex;
+  justify-content: space-between;
+}
+
+#twitter {
+  padding: 0 10px 0 0;
+}
+
+#linkedin {
+  padding: 0 10px 0 0;
+}
+
+#medium {
+  padding: 0;
+}
+
+#github {
+  padding: 0 0 0 10px;
+}
+
+#angellist {
+  padding: 0 0 0 10px;
 }
