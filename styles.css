@@ -45,3 +45,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+
+.sub_text {
+  color: #36B37E;
+}
