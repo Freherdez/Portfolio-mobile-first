@@ -30,3 +30,18 @@
   left: 0px;
   top: 92px;
 }
+
+.h1{
+  width: 327px;
+height: 192px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+text-align: center;
+color: #172B4D;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
