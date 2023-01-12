@@ -64,3 +64,11 @@ flex-grow: 0;
   order: 1;
   flex-grow: 0;
 }
+
+.social {
+  width: 170.17px;
+  height: 20px;
+  text-align: center;
+  padding-top: -15px;
+  flex: none;
+}
