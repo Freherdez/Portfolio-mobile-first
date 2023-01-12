@@ -4,3 +4,16 @@
   background-image: url(img/background3.png);
 }
 
+.header1 {
+  display: flex;
+  justify-content: right;
+  padding-top: 0;
+  padding-right: 15px;
+}
+
+#time {
+  display: inline;
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
