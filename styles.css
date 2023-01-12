@@ -98,3 +98,23 @@ flex-grow: 0;
 #angellist {
   padding: 0 0 0 10px;
 }
+
+.button {
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px;
+position: absolute;
+width: 40px;
+height: 40px;
+bottom: 180px;
+border-color: transparent;
+}
+
+#button {
+  width: 24px;
+height: 24px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
