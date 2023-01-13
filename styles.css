@@ -274,7 +274,7 @@ li {
   text-decoration: none;
   position: relative;
   left: 80px;
-  margin-bottom: 60px;
+  margin-bottom: 210px;
 }
 
 #button_resume p {
@@ -309,8 +309,61 @@ li {
   gap: 24px;
   width: 327px;
   height: 1106px;
-  border: 1px solid red;
   top: 15px;
   margin-top: 25px;
 }
 
+.card_skills {
+  width: 327px;
+  height: 352px;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  padding: 50px 0;
+}
+
+#icons {
+  width: 80px;
+  height: 70px;
+  padding: 80px 60px;
+  position: relative;
+  bottom: 55px;
+}
+
+.skill_h2 {
+  width: 337px;
+  height: 32px;
+  font-family: 'inter', sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  color: #344563;
+  position: relative;
+  bottom: 50px;
+}
+
+.stack_skills1 ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  padding: 0 30px;
+  width: 271px;
+  height: 40px;
+  justify-content: space-between;
+  text-align: center;
+  position: relative;
+  bottom: 25px;
+
+}
+
+.card_skills ul li {
+  font-family: 'inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.03em;
+  color: #36c37e;
+}
