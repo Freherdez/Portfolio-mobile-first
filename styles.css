@@ -397,3 +397,25 @@ right: 10px;
   left: 40px;
 }
 
+.stack_skills3 ul{
+  width: 290px;
+  height: 88px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  line-height: 100px;
+  padding-left: 16px;
+  position: relative;
+  bottom: 35px;
+}
+
+.frame_1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 110px;
+}
