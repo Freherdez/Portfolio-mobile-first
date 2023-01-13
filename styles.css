@@ -166,16 +166,18 @@ li {
   font-weight: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: blue;
+  color: #3a4a42;
   display: flex;
   align-items: center;
   padding: 15px;
-  gap: 40px;
+  gap: 15px;
 }
 
-.listw li {
-  display: flex;
-  justify-content: space-between;
+.ruby {
+  width: max-content;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 #button {
