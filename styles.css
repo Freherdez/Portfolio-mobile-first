@@ -159,7 +159,7 @@ li {
   white-space: pre-line;
 }
 
-.listw {/*working here*/
+.listw {
   width: 79px;
   height: 16px;
   font-family: 'Inter', sans-serif;
@@ -213,8 +213,6 @@ li {
   opacity: 0;
 }
 
-/*about me*/
-
 .about {
   display: flex;
   flex-direction: column;
@@ -232,7 +230,6 @@ li {
   background-position: 0 350px, 320px 0px;
 }
 
-
 .text_about {
   width: 351px;
   height: 48px;
@@ -248,7 +245,6 @@ li {
   position: relative;
   bottom: 35px;
 }
-
 
 .text2_about {
   width: 351px;
@@ -302,6 +298,3 @@ li {
   left: 15px;
 }
 
-.about_container {
- 
-}
