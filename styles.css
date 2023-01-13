@@ -108,3 +108,58 @@ li {
   left: 80px;
   bottom: 250px;
 }
+
+.work {
+  display: inline-grid;
+align-items: center;
+padding: 64px 24px;
+gap: 58px;
+position: absolute;
+width: 379px;
+height: 3283px;
+left: 0px;
+top: 708px;
+order: 1;
+justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 8px;
+}
+
+.paragraph_card {
+  width: 295px;
+  height: 57px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  align-items: center;
+  text-align: center;
+  color: #3a4a42;
+}
+
+.stack p{
+  width: 79px;
+  height: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #3a4a42;
+}
+
+.stack {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 305px;
+  height: 32px;
+  padding: 0px;
+}
+
