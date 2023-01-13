@@ -109,8 +109,6 @@ li {
   bottom: 250px;
 }
 
-/*styles final project*/
-
 .work {
   display: inline-grid;
 align-items: center;
@@ -133,8 +131,6 @@ margin: 0;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
 }
-
-
 
 .paragraph_card {
   width: 295px;
