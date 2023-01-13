@@ -111,16 +111,16 @@ li {
 
 .work {
   display: inline-grid;
-align-items: center;
-padding: 64px 24px;
-gap: 28px;
-position: absolute;
-width: 355px;
-height: 2972px;
-left: 0px;
-top: 830px;
-justify-content: center;
-margin: 0;
+  align-items: center;
+  padding: 64px 24px;
+  gap: 28px;
+  position: absolute;
+  width: 355px;
+  height: 2972px;
+  left: 0px;
+  top: 830px;
+  justify-content: center;
+  margin: 0;
 }
 
 .card {
@@ -130,6 +130,7 @@ margin: 0;
   text-align: center;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+  list-style: none;
 }
 
 .paragraph_card {
@@ -145,23 +146,36 @@ margin: 0;
   font-size: 24px;
 }
 
-.stack p{
+.stack {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  gap: 8px;
+  width: 305px;
+  height: 32px;
+  padding: 5px;
+  list-style: none;
+  white-space: pre-line;
+}
+
+.listw {/*working here*/
   width: 79px;
   height: 16px;
   font-family: 'Inter', sans-serif;
   font-weight: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #3a4a42;
-}
-
-.stack {
+  color: blue;
   display: flex;
   align-items: center;
-  gap: 8px;
-  width: 305px;
-  height: 32px;
-  padding: 0px;
+  padding: 15px;
+  gap: 40px;
+}
+
+.listw li {
+  display: flex;
+  justify-content: space-between;
 }
 
 #button {
