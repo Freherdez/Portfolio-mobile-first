@@ -212,3 +212,85 @@ li {
 .card img {
   opacity: 0;
 }
+
+/*about me*/
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 24px;
+  position: absolute;
+  width: 375px;
+  height: 1625px;
+  left: 0;
+  top: 5600px;
+  align-content: center;
+}
+
+.text_about {
+  width: 351px;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  position: relative;
+  bottom: 35px;
+}
+
+
+.text2_about {
+  width: 351px;
+  height: 189px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  text-align: center;
+  color: #42526e;
+  letter-spacing: 0.03em;
+  line-height: 38px;
+  position: relative;
+  bottom: 45px;
+}
+
+#button_resume {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  padding: 12px;
+  width: 159px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+#button_resume p {
+  width: 135px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  flex-direction: row;
+  width: max-content;
+}
+
+.p_resume {
+  position: relative;
+  left: 15px;
+}
