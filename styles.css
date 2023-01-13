@@ -109,17 +109,18 @@ li {
   bottom: 250px;
 }
 
+/*styles final project*/
+
 .work {
   display: inline-grid;
 align-items: center;
 padding: 64px 24px;
 gap: 28px;
 position: absolute;
-width: 379px;
-height: 3283px;
+width: 350px;
+height: 2972px;
 left: 0px;
-top: 780px;
-order: 1;
+top: 830px;
 justify-content: center;
 margin: 0;
 }
@@ -193,4 +194,8 @@ margin: 0;
   text-align: center;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.card img {
+  opacity: 0;
 }
