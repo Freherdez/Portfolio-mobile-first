@@ -367,3 +367,33 @@ li {
   letter-spacing: 0.03em;
   color: #36c37e;
 }
+
+.stack_skills2 ul{
+display: flex;
+flex-direction: row;
+align-content: center;
+align-items: center;
+text-align: center;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 266px;
+height: 88px;
+padding-right: 16px;
+position: relative;
+bottom: 35px;
+right: 10px;
+}
+
+.stack_skills2 ul li {
+  line-height: 70px;
+}
+
+.frame {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 40px;
+  position: relative;
+  left: 40px;
+}
+
