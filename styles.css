@@ -113,14 +113,15 @@ li {
   display: inline-grid;
 align-items: center;
 padding: 64px 24px;
-gap: 58px;
+gap: 28px;
 position: absolute;
 width: 379px;
 height: 3283px;
 left: 0px;
-top: 708px;
+top: 780px;
 order: 1;
 justify-content: center;
+margin: 0;
 }
 
 .card {
@@ -128,9 +129,11 @@ justify-content: center;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border: 1px solid red;
+  border: 1px solid #d0d9d4;
   border-radius: 8px;
 }
+
+
 
 .paragraph_card {
   width: 295px;
