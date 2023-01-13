@@ -221,12 +221,17 @@ li {
   align-items: center;
   padding: 64px 24px;
   position: absolute;
-  width: 375px;
+  width: 365px;
   height: 1625px;
-  left: 0;
+  left: 1px;
   top: 5600px;
   align-content: center;
+    background-image: url(./img/Frame\ 2.png) , url(./img/Frame.png);
+  background-repeat: no-repeat;
+  background-size: 68px 127px, 80px 130px;
+  background-position: 0 350px, 320px 0px;
 }
+
 
 .text_about {
   width: 351px;
@@ -295,4 +300,8 @@ li {
 .p_resume {
   position: relative;
   left: 15px;
+}
+
+.about_container {
+ 
 }
