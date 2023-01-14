@@ -185,7 +185,7 @@ li {
   top: 200px;
 }
 
-#button {
+#button {/*button work section*/
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -200,11 +200,12 @@ li {
   text-decoration: none;
   position: relative;
   left: 60px;
+  border-color: transparent;
 }
 
-.card a p {
-  width: 98px;
-  height: 24px;
+#button p {
+  width: 122px;
+  height: 48px;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 17px;
