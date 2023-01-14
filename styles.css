@@ -422,3 +422,16 @@ li {
   position: relative;
   left: 110px;
 }
+
+#button:visited {
+  background-color: #008552;
+}
+
+#button:hover {
+  background-color: #36b37f;
+}
+
+#button:active{
+  background-color: #36b37f;
+}
+
