@@ -25,7 +25,7 @@
 
 > Describe your project in 1 or 2 sentences.
 
-**Portfolio: setup and mobile first** This is a project to strengthen our knowledge in HTML and CSS, but above all to put into practice the correct order of the elements through Flexbox.
+**Portfolio: setup and mobile first** This is a project to strengthen our knowledge in HTML and CSS, but above all to put into practice the correct order of the elements through Flexbox and Grip.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -33,7 +33,7 @@
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
-Html-Css-Flexbox-Figma.
+Html-Css-Flexbox-Grip-Figma.
 ### Key Features <a name="key-features"></a>
 
 > Describe between 1-3 key features of the application.
