@@ -185,7 +185,7 @@ li {
   top: 218px;
 }
 
-#button {/*button work section*/
+#button {
   display: flex;
   flex-direction: row;
   align-items: center;
