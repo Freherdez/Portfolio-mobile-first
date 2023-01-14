@@ -272,14 +272,16 @@ li {
   text-align: center;
   align-content: center;
   padding: 12px;
-  width: 159px;
+  width: max-content;
   height: 48px;
   background: #36b37f;
   border-radius: 4px;
   text-decoration: none;
   position: relative;
   left: 80px;
+  top: 23px;
   margin-bottom: 210px;
+  border-color: transparent;
 }
 
 #button_resume p {
@@ -288,20 +290,15 @@ li {
   font-weight: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 24px;
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
   flex-direction: row;
-  width: max-content;
 }
 
-.p_resume {
-  position: relative;
-  left: 15px;
-}
 
 .skills_container {
   display: flex;
