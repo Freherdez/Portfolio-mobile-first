@@ -120,9 +120,12 @@ li {
   top: 830px;
   justify-content: center;
   margin: 0;
+  border: 1px solid red;/*principal container */
 }
 
 .card {
+  width: 327px;;
+  height: 474px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -130,6 +133,7 @@ li {
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   list-style: none;
+  border: 1px solid red;/*height error use 474px*/
 }
 
 .paragraph_card {
@@ -179,6 +183,11 @@ li {
   position: relative;
 }
 
+.card_inside {
+  position: relative;
+  top: 200px;
+}
+
 #button {
   display: flex;
   flex-direction: row;
@@ -192,6 +201,8 @@ li {
   border-radius: 8px;
   margin: 40px 20px 20px 20px;
   text-decoration: none;
+  position: relative;
+  left: 60px;
 }
 
 .card a p {
@@ -206,10 +217,6 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
-}
-
-.card img {
-  opacity: 0;
 }
 
 .about {
