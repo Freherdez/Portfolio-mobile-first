@@ -226,7 +226,7 @@ li {
   background-image: url(./img/Frame\ 2.png), url(./img/Frame.png);
   background-repeat: no-repeat;
   background-size: 68px 127px, 80px 130px;
-  background-position: 0px 350px, 320px 0px;
+  background-position: 1px 350px, 320px 1px;
 }
 
 .text_about {
