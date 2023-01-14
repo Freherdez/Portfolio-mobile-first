@@ -119,8 +119,6 @@ li {
   height: 2972px;
   top: 830px;
   justify-content: center;
-  margin: 0;
-  border: 1px solid red;/*principal container */
 }
 
 .card {
@@ -133,7 +131,6 @@ li {
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   list-style: none;
-  border: 1px solid red;/*height error use 474px*/
 }
 
 .paragraph_card {
