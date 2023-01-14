@@ -182,7 +182,7 @@ li {
 
 .card_inside {
   position: relative;
-  top: 200px;
+  top: 218px;
 }
 
 #button {/*button work section*/
@@ -193,13 +193,14 @@ li {
   padding: 12px;
   gap: 10px;
   width: 122px;
-  height: 48px;
+  height: 60px;
   background-color: #36b37f;
   border-radius: 8px;
   margin: 40px 20px 20px 20px;
   text-decoration: none;
   position: relative;
   left: 60px;
+  bottom: 15px;
   border-color: transparent;
 }
 
