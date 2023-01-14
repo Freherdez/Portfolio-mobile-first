@@ -428,7 +428,7 @@ li {
 }
 
 #button:active {
-  background-color: #36b37f;
+  background-color: #008552;
 }
 
 #button_resume:visited {
@@ -440,5 +440,5 @@ li {
 }
 
 #button_resume:active {
-  background-color: #36b37f;
+  background-color: #008552;
 }
