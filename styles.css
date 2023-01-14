@@ -432,3 +432,14 @@ li {
   background-color: #36b37f;
 }
 
+#button_resume:visited {
+  background-color: #008552;
+}
+
+#button_resume:hover {
+  background-color: #36b37f;
+}
+
+#button_resume:active{
+  background-color: #36b37f;
+}
