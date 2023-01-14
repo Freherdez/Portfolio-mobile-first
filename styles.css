@@ -117,7 +117,6 @@ li {
   position: absolute;
   width: 355px;
   height: 2972px;
-  left: 0px;
   top: 830px;
   justify-content: center;
   margin: 0;
@@ -206,7 +205,7 @@ li {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #fff;
 }
 
 .card img {
@@ -224,7 +223,7 @@ li {
   left: 1px;
   top: 5600px;
   align-content: center;
-    background-image: url(./img/Frame\ 2.png) , url(./img/Frame.png);
+  background-image: url(./img/Frame\ 2.png), url(./img/Frame.png);
   background-repeat: no-repeat;
   background-size: 68px 127px, 80px 130px;
   background-position: 0 350px, 320px 0px;
@@ -278,7 +277,6 @@ li {
 }
 
 #button_resume p {
-  width: 135px;
   height: 24px;
   font-family: 'Inter', sans-serif;
   font-weight: normal;
@@ -343,7 +341,7 @@ li {
   bottom: 50px;
 }
 
-.stack_skills1 ul{
+.stack_skills1 ul {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -355,7 +353,6 @@ li {
   text-align: center;
   position: relative;
   bottom: 25px;
-
 }
 
 .card_skills ul li {
@@ -368,20 +365,20 @@ li {
   color: #36c37e;
 }
 
-.stack_skills2 ul{
-display: flex;
-flex-direction: row;
-align-content: center;
-align-items: center;
-text-align: center;
-flex-wrap: wrap;
-justify-content: space-between;
-width: 266px;
-height: 88px;
-padding-right: 16px;
-position: relative;
-bottom: 35px;
-right: 10px;
+.stack_skills2 ul {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 266px;
+  height: 88px;
+  padding-right: 16px;
+  position: relative;
+  bottom: 35px;
+  right: 10px;
 }
 
 .stack_skills2 ul li {
@@ -397,7 +394,7 @@ right: 10px;
   left: 40px;
 }
 
-.stack_skills3 ul{
+.stack_skills3 ul {
   width: 290px;
   height: 88px;
   display: flex;
