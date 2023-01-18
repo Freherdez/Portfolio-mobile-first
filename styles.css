@@ -564,7 +564,6 @@ li {
   position: relative;
   flex-direction: column;
   text-align: center;
-  position: relative;
   width: 170.17px;
   height: 20px;
   top: 350px;
@@ -598,7 +597,6 @@ li {
   line-height: 32px;
   text-align: center;
   color: #42526e;
-  margin-top: 0px;
 }
 
 #button_contact:visited {
