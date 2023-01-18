@@ -498,6 +498,10 @@ li {
   border-radius: 4px;
 }
 
+.input_form input::placeholder {
+  padding-left: 15px;
+}
+
 .text_area textarea {
   width: 323px;
   height: 114px;
