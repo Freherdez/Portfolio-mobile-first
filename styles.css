@@ -577,3 +577,9 @@ bottom: 26px;
   height: 20px;
   text-align: center;
 }
+
+#img_contact {
+  position: absolute;
+  left: 231px;
+  bottom: -20px;
+}
