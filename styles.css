@@ -596,3 +596,14 @@ bottom: 26px;
   color: #42526e;
   margin-top: 0px;
 }
+#button_contact:visited {
+  background-color: #008552;
+}
+
+#button_contact:hover {
+  background-color: #36b37f;
+}
+
+#button_contact:active {
+  background-color: #008552;
+}
