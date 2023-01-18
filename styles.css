@@ -455,7 +455,6 @@ li {
   position: absolute;
   width: 375px;
   height: 879px;
-  left: 0px;
   top: 5650px;
 }
 
@@ -508,6 +507,7 @@ li {
   background: #fff;
   border: 1px solid #60c095;
   border-radius: 4px;
+  resize: none;
 }
 
 .text_area textarea::placeholder {
@@ -519,13 +519,12 @@ li {
   color: #091e42;
   padding-top: 15px;
   padding-left: 10px;
-  resize: none;
 }
 
 #icon_textarea {
-position: relative;
-left: 315px;
-bottom: 25px;
+  position: relative;
+  left: 315px;
+  bottom: 25px;
 }
 
 #button_contact {
@@ -558,12 +557,12 @@ bottom: 25px;
   color: #fff;
   flex-direction: row;
 }
+
 .footer_part {
   display: flex;
   align-items: center;
   position: relative;
   flex-direction: column;
-  align-items: center;
   text-align: center;
   position: relative;
   width: 170.17px;
@@ -573,12 +572,10 @@ bottom: 25px;
 }
 
 #button_social_footer {
-  flex-grow: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  position: relative;
   width: 170.17px;
   height: 20px;
   text-align: center;
@@ -589,6 +586,7 @@ bottom: 25px;
   left: 231px;
   bottom: -20px;
 }
+
 #p_footer {
   position: relative;
   width: 375px;
@@ -602,6 +600,7 @@ bottom: 25px;
   color: #42526e;
   margin-top: 0px;
 }
+
 #button_contact:visited {
   background-color: #008552;
 }
