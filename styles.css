@@ -505,6 +505,9 @@ li {
   background: #fff;
   border: 1px solid #60c095;
   border-radius: 4px;
+}
+
+.text_area textarea::placeholder {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -518,8 +521,8 @@ li {
 
 #icon_textarea {
 position: relative;
-left: 322px;
-bottom: 26px;
+left: 315px;
+bottom: 25px;
 }
 
 #button_contact {
