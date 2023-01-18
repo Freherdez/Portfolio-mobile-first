@@ -96,6 +96,10 @@ Open index.html file in your browser.
 - GitHub: [@Freherdez](https://github.com/Freherdez)
 - Twitter: [@FreddyH41742135](https://twitter.com/FreddyH41742135)
 
+👤 **Author2**
+
+- GitHub: [@danielochuba](https://github.com/danielochuba)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
