@@ -552,3 +552,16 @@ bottom: 26px;
   color: #fff;
   flex-direction: row;
 }
+.footer_part {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  width: 170.17px;
+  height: 20px;
+  top: 460px;
+  right: 15px;
+}
