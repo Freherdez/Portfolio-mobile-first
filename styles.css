@@ -117,7 +117,7 @@ li {
   display: none;
 }
 
-..work_title{
+.work_title{
   display: none;
 }
 
@@ -771,7 +771,7 @@ li {
     width: 500px;
     height: 48px;
     font-family: 'inter', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 52px;
     display: flex;
@@ -780,8 +780,98 @@ li {
     text-align: center;
     color: #172b4d;
     position: relative;
-    left: 31%;
+    left: 33%;
     bottom: 10%;
   }
 
+  .work {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    gap: 25px;
+    width: 1171px;
+    height: 1000px;
+    justify-content: center;
+    margin-top: 200px;
+  }
+
+  .card {
+    width: 380px;
+    height: 498px;
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+    background: #ebf0ee;
+  }
+
+  .card_inside {
+    width: 380px;
+    height: 238px;
+    align-items: center;
+    position: relative;
+    top: 260px;
+    background: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+  }
+
+  .paragraph_card {
+    width: 337px;
+    height: 57px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    color: #172b4d;
+    padding: 10px;
+    position: relative;
+    margin: 0px;
+    padding-top: 45px;
+  }
+
+  .stack {
+    width: 103px;
+    height: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #172b4d;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    right: 36%;
+    top: 10px;
+    justify-content: space-between;
+  }
+
+  .listw {
+    width: 103px;
+    height: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #172b4d;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content:space-between;
+  }
+
+  .listw li{
+    padding: 8px 12px;
+    background: #EBF0EE;
+    border-radius: 4px;
+  }
+
+  #button {
+    position: relative;
+    left: 1%;
+  }
 }
