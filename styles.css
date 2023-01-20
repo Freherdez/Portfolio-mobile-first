@@ -610,3 +610,28 @@ li {
 #button_contact:active {
   background-color: #008552;
 }
+
+@media all and (min-width: 768px) {
+  .header2 {
+    display: none;
+  }
+
+  body {
+    width: 1440px;
+  height: 3846px;
+  background-color: #fff;
+  }
+
+  #heading {
+    background-image: url(/img/background_header.png);
+  background-repeat: no-repeat;
+  width: 1472.8px;
+  height: 1434.3px;
+  position: relative;
+  top: -16px;
+  left: 27px;
+  }
+  
+
+
+}
