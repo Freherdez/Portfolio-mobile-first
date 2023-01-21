@@ -891,7 +891,7 @@ li {
   position: absolute;
   width: 288.04px;
   height: 140.24px;
-  bottom: 75%;
+  bottom: 55%;
   left: -13%;
 }
 
@@ -899,7 +899,7 @@ li {
   position: absolute;
   width: 269.55px;
   height: 244.78px;
-  bottom: 83%;
+  bottom: 60%;
   right: -13%;
 }
 
@@ -1113,10 +1113,23 @@ li {
     background-position: 0px 3650px, 280px 3800px, 1220px 3510px;
   }
 
-  .footer_part nav{
-    display: contents;
-    position: absolute;
-
+  .social_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 200px;
+    border-top: 1px solid #dfe1e6;
+    position: relative;
+    bottom: 50px;
+    left: 380px;
   }
+
+  #p_footer {
+    position: relative;
+    left: 230%;
+    bottom: 70px;
+  }
+
 
   }
