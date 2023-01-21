@@ -117,7 +117,7 @@ li {
   display: none;
 }
 
-.work_title{
+.work_title {
   display: none;
 }
 
@@ -230,8 +230,6 @@ li {
   letter-spacing: 0.03em;
   color: #fff;
 }
-
-
 
 .about {
   display: flex;
@@ -643,33 +641,33 @@ li {
   }
 
   body {
-  width: 1440px;
-  height: 3846px;
-  background-color: #fff;
+    width: 1440px;
+    height: 3846px;
+    background-color: #fff;
   }
 
   #heading {
     background-image: url(/img/imgdes/background_header.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 1472.8px;
-  height: 1434.3px;
-  position: relative;
-  top: -28px;
-  right: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1472.8px;
+    height: 1434.3px;
+    position: relative;
+    top: -28px;
+    right: 30px;
   }
 
   .bar {
-  position: relative;
-  width: 1440px;
-  height: 72px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-  list-style: none;
-  margin-top: -40px;
-  right: 5%;
+    position: relative;
+    width: 1440px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+    margin-top: -40px;
+    right: 5%;
   }
 
   .nav_bar ul {
@@ -714,16 +712,16 @@ li {
 
   .supporting {
     width: 780px;
-  height: 96px;
-  font-family: 'Inter', sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
-  text-align: center;
-  color: #172b4d;
-  position: relative;
-  left: 60px;
+    height: 96px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #172b4d;
+    position: relative;
+    left: 60px;
   }
 
   #button_social {
@@ -746,7 +744,7 @@ li {
     background: none;
   }
 
-  #vector img{
+  #vector img {
     padding: 8px;
     background: #fff;
     border: 1px solid #dfe1e6;
@@ -904,7 +902,7 @@ li {
 }
 
   .about {
-    display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -1063,14 +1061,14 @@ li {
   }
 
   .h2_contact h2 {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 52px;
-  margin-left: 15px;
-  width: 463px;
-  height: 256px;
-  text-align:justify;
-}
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    margin-left: 15px;
+    width: 463px;
+    height: 256px;
+    text-align:justify;
+  }
 
   .form_container {
     position: absolute;
@@ -1130,6 +1128,4 @@ li {
     left: 230%;
     bottom: 70px;
   }
-
-
-  }
+}
