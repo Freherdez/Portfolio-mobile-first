@@ -389,7 +389,6 @@ li {
   border-radius: 50%;
   position: relative;
   bottom: 10px;
-
 }
 
 .skill_h2 {
@@ -428,7 +427,7 @@ li {
   letter-spacing: 0.03em;
   color: #36c37e;
   padding: 10px;
-  background: #FFFFFF;
+  background: #fff;
   border-radius: 8px;
 }
 
@@ -470,7 +469,6 @@ li {
   align-items: center;
   gap: 15px;
   position: relative;
-
   right: 30px;
 }
 
