@@ -617,6 +617,8 @@ li {
   color: #42526e;
 }
 
+
+
 #button_contact:visited {
   background-color: #008552;
 }
@@ -1057,6 +1059,8 @@ li {
     gap: 24px;
     width: 463px;
     height: 256px;
+    position: relative;
+    top: 100px;
 
   }
 
@@ -1072,7 +1076,7 @@ li {
 
   .form_container {
     position: absolute;
-    top: 520px;
+    top: 530px;
     left: 160%;
   }
 
@@ -1104,9 +1108,11 @@ li {
     line-height: 24px;
   }
 
-  .footer_part {
+
+  .footer_part nav{
+    display: contents;
     position: absolute;
-    top: 1100px
+
   }
 
   }
