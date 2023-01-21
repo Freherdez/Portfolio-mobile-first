@@ -121,7 +121,6 @@ li {
   position: absolute;
   top: 760px;
   left: 15%;
-
 }
 
 .work_title h2 {
@@ -220,7 +219,7 @@ li {
 }
 
 .listw li {
-  background: #EBF0EE;
+  background: #ebf0ee;
   border-radius: 4px;
   padding: 8px;
   position: relative;
@@ -233,8 +232,6 @@ li {
   align-items: center;
   position: relative;
 }
-
-
 
 #button {
   display: flex;
@@ -813,7 +810,7 @@ li {
   }
 
   .work_title {
-    padding: 0 ;
+    padding: 0;
     margin: 0;
     min-width: 450px;
     white-space: nowrap;
@@ -824,14 +821,13 @@ li {
   }
 
   .work_title h2 {
-    font-family: 'Inter';
+    font-family: 'Inter' sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     padding: 0;
     margin: 0;
-
   }
 
   .card {
