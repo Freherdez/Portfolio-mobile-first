@@ -1038,6 +1038,75 @@ li {
     border-radius: 8px;
   }
 
+  /*contact section*/
+
+  #img_contact {
+    display: none;
   }
 
+  .contact-container {
+    position: absolute;
+    left: 10%;
+    top: 3000px;
+  }
+
+  .h2_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 463px;
+    height: 256px;
+
+  }
+
+  .h2_contact h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 52px;
+  margin-left: 15px;
+  width: 463px;
+  height: 256px;
+  text-align:justify;
 }
+
+  .form_container {
+    position: absolute;
+    top: 520px;
+    left: 160%;
+  }
+
+  .input_form input {
+    width: 684px;
+    height: 48px;
+  }
+
+  .text_area textarea {
+    width: 684px;
+    height: 114px;
+  }
+
+  #icon_textarea {
+    left: 670px;
+  }
+
+  #button_contact {
+    width: 129px;
+    height: 48px;
+    right: 280px;
+  }
+
+  #button_contact p {
+    width: 105px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .footer_part {
+    position: absolute;
+    top: 1100px
+  }
+
+  }
