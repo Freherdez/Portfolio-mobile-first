@@ -826,7 +826,7 @@ li {
     height: 238px;
     align-items: center;
     position: relative;
-    top: 260px;
+    top: 250px;
     background: #fff;
     border-radius: 8px;
     display: flex;
@@ -886,6 +886,8 @@ li {
     padding: 8px 12px;
     background: #ebf0ee;
     border-radius: 4px;
+    position: relative;
+    left: 1px;
   }
 
   #button {
