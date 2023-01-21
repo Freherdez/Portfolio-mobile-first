@@ -756,7 +756,7 @@ li {
     position: relative;
     bottom: 25px;
     right: 15px;
-    border:none;
+    border: transparent;
   }
 
   /* work section */
@@ -931,7 +931,6 @@ li {
     top: -20px;
   }
 
-
   .skills_container {
     display: inline-grid;
     align-items: center;
@@ -966,8 +965,8 @@ li {
     height: 48px;
     padding: 15px;
     top: 13%;
-    background: #FFFFFF;
-    box-shadow: 0px 16px 24px rgba(37, 47, 137, 0.08);
+    background: #fff;
+    box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
     border-radius: 50%;
   }
 
@@ -1056,7 +1055,7 @@ li {
     margin-left: 15px;
     width: 463px;
     height: 256px;
-    text-align:justify;
+    text-align: justify;
   }
 
   .form_container {
