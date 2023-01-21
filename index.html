@@ -22,7 +22,16 @@
   </header>
   <section id="heading">
     <div>
-      <h1 class="h1">Hey there. I’m <br> Freddy <br> <span class="sub_text">I’m a software developer</span></h1>
+      <nav class="nav_bar">
+        <ul class="bar">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div>
+      <h1 class="h1">Hey there. I’m Freddy <br><span class="sub_text">I’m a software developer</span></h1>
       <p class="supporting">
         I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
       </p>
@@ -36,7 +45,11 @@
         <li id="angellist"><a href="#" target="_blank"><img src="./img/angellist.svg" alt="angellist icon"></a></li>
       </ul>
     </nav>
+    <button id="vector"><img src="./img/imgdes/vector_button.png" alt="vectorb"></button>
   </section>
+    <div class="work_title">
+      <h2>My Recent Works</h2>
+    </div>
   <section class="work">
     <div class="card card1 img1">
       <div class="card_inside">
@@ -124,6 +137,10 @@
     </div>
   </section>
   <section class="about">
+    <div class="images_about">
+    <img src="./img/imgdes/img_about1.png" alt="background_about1" class="img_about1">
+    <img src="./img/imgdes/img_about2.png" alt="background_about2" class="img_about2">
+    </div>
     <div class="about_container">
       <h2 class="text_about">About me</h2>
       <p class="text2_about"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
@@ -182,13 +199,13 @@
     <form action="https://formspree.io/f/mknagbor" method="POST" class="form_container">
       <div class="input_form">
         <input type="text" name="full_name" id="name" placeholder="Full name" maxlength="30" required>
-      </div class="input_form">
+      </div>
       <div class="input_form">
         <input type="email" name="email" id="email" placeholder="Email address" required>
       </div>
       <div class="text_area">
         <textarea maxlength="500" rows="10" cols="30"  placeholder="Enter text here" required></textarea>
-        <img src="/img/Union_textarea.png" alt="" id="icon_textarea">
+        <img src="./img/Union_textarea.png" alt="" id="icon_textarea">
       </div>
       <button type="submit" id="button_contact"><p class="p_resume">Get in touch</p></button>
     </form>
@@ -202,7 +219,7 @@
         <li id="angellist"><a href="#" target="_blank"><img src="./img/angellist.svg" alt="angellist icon"></a></li>
       </ul>
     </nav>
-    <img src="/img/img_contact.png" alt="" id="img_contact">
+    <img src="./img/img_contact.png" alt="" id="img_contact">
     <p id="p_footer">simonherosorio14@gmail.com</p>
     </footer>
   </section>

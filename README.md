@@ -23,32 +23,35 @@
 
 # 📖 Portfolio: setup and mobile first <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **Portfolio: setup and mobile first** This is a project to strengthen our knowledge in HTML and CSS, but above all to put into practice the correct order of the elements through Flexbox and Grip.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+- Html.
+- Css.
+- Flexbox.
+- Grip-Figma.
 
-Html-Css-Flexbox-Grip-Figma.
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+- This design is pulled from a Figma template.
+- Two versions available: mobile and desktop.
+- Professional portfolio.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+I am currently working on the live demo to be sure to give you the best user experience.
+
+Thank you for your patience, it won't take long!!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -64,8 +67,8 @@ Clone this repository to your desired folder:
 
 
 ```sh
-  cd my-folder
   git clone git@github.com:Freherdez/Portfolio-mobile-first.git
+  cd Portfolio-mobile-first/
 ```
 
 
@@ -74,7 +77,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
- cd my-project
+ cd Portfolio-mobile-first/
   npm install -y
 ```
 
@@ -89,7 +92,6 @@ Open index.html file in your browser.
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
@@ -104,7 +106,9 @@ Open index.html file in your browser.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+- Interactions and animations.
+- Links to completed projects.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,15 +120,11 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project, I encourage you to use it as a reference for good practices and methodologies, which guide us to be excellent quality developers.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank microverse for giving me the tools to be able to create these types of projects.
 

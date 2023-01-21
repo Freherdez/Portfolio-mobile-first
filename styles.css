@@ -1,7 +1,7 @@
 #heading {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(img/background3.png);
+  background-image: url(./img/background3.png);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,6 +11,10 @@
   width: 375px;
   height: 726px;
   top: 92px;
+}
+
+.bar {
+  display: none;
 }
 
 .header {
@@ -105,8 +109,37 @@ li {
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  left: 80px;
-  bottom: 250px;
+  left: 90px;
+  bottom: 200px;
+}
+
+#vector {
+  display: contents;
+}
+
+#vector img {
+  position: relative;
+  top: 65px;
+}
+
+.work_title {
+  position: absolute;
+  top: 900px;
+  left: 15%;
+}
+
+.work_title h2 {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-self: center;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  width: 300px;
+  font-size: 40px;
+  text-align: center;
+  color: #172b4d;
+  margin-top: 22px;
 }
 
 .work {
@@ -117,7 +150,7 @@ li {
   position: absolute;
   width: 355px;
   height: 2972px;
-  top: 830px;
+  top: 1000px;
   justify-content: center;
 }
 
@@ -132,6 +165,23 @@ li {
   border-radius: 8px;
   list-style: none;
   background: #ebf0ee;
+}
+
+.card_inside {
+  width: 327px;
+  height: 222px;
+  align-items: center;
+  position: relative;
+  top: 241px;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  padding: 0;
+  padding-top: 10px;
 }
 
 .paragraph_card {
@@ -171,7 +221,15 @@ li {
   display: flex;
   align-items: center;
   padding: 15px;
-  gap: 15px;
+  gap: 5px;
+}
+
+.listw li {
+  background: #ebf0ee;
+  border-radius: 4px;
+  padding: 8px;
+  position: relative;
+  right: 15px;
 }
 
 .ruby {
@@ -179,11 +237,6 @@ li {
   justify-content: center;
   align-items: center;
   position: relative;
-}
-
-.card_inside {
-  position: relative;
-  top: 218px;
 }
 
 #button {
@@ -200,7 +253,6 @@ li {
   margin: 40px 20px 20px 20px;
   text-decoration: none;
   position: relative;
-  left: 60px;
   bottom: 15px;
   border-color: transparent;
 }
@@ -228,12 +280,16 @@ li {
   width: 365px;
   height: 1625px;
   left: 1px;
-  top: 3927px;
+  top: 4100px;
   align-content: center;
   background-image: url(./img/frame_2.png), url(./img/frame_1.png);
   background-repeat: no-repeat;
   background-size: 68px 127px, 80px 130px;
   background-position: 1px 350px, 320px 1px;
+}
+
+.images_about {
+  display: none;
 }
 
 .text_about {
@@ -249,7 +305,7 @@ li {
   font-size: 40px;
   line-height: 52px;
   position: relative;
-  bottom: 35px;
+  bottom: 40px;
 }
 
 .text2_about {
@@ -326,9 +382,13 @@ li {
 #icons {
   width: 80px;
   height: 80px;
-  padding: 80px 60px;
+  padding: 15px;
+  margin: 0;
+  background: #fff;
+  box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
+  border-radius: 50%;
   position: relative;
-  bottom: 55px;
+  bottom: 10px;
 }
 
 .skill_h2 {
@@ -342,7 +402,6 @@ li {
   text-align: center;
   color: #344563;
   position: relative;
-  bottom: 50px;
 }
 
 .stack_skills1 ul {
@@ -350,23 +409,26 @@ li {
   flex-direction: row;
   align-items: center;
   align-content: center;
-  padding: 0 30px;
   width: 271px;
   height: 40px;
   justify-content: space-between;
   text-align: center;
   position: relative;
-  bottom: 25px;
+  top: 5px;
+  right: 5px;
 }
 
 .card_skills ul li {
   font-family: 'inter', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
-  line-height: 14px;
+  font-size: 12px;
+  line-height: 16px;
   letter-spacing: 0.03em;
   color: #36c37e;
+  padding: 10px;
+  background: #fff;
+  border-radius: 8px;
 }
 
 .stack_skills2 ul {
@@ -381,13 +443,13 @@ li {
   height: 88px;
   padding-right: 16px;
   position: relative;
-  bottom: 35px;
+  top: 5px;
   right: 10px;
 }
 
-.stack_skills2 ul li {
-  line-height: 70px;
-}
+/* .stack_skills2 ul li {
+  line-height: 50px;
+} */
 
 .frame {
   display: flex;
@@ -396,6 +458,7 @@ li {
   gap: 40px;
   position: relative;
   left: 40px;
+  top: 15px;
 }
 
 .stack_skills3 ul {
@@ -404,13 +467,9 @@ li {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
   gap: 15px;
-  line-height: 100px;
-  padding-left: 16px;
   position: relative;
-  bottom: 35px;
+  right: 30px;
 }
 
 .frame_1 {
@@ -418,7 +477,8 @@ li {
   align-items: center;
   justify-content: center;
   position: relative;
-  left: 110px;
+  top: 55px;
+  right: 200px;
 }
 
 #button:visited {
@@ -455,7 +515,7 @@ li {
   position: absolute;
   width: 375px;
   height: 879px;
-  top: 5650px;
+  top: 5800px;
 }
 
 .h2_contact {
@@ -609,4 +669,491 @@ li {
 
 #button_contact:active {
   background-color: #008552;
+}
+
+@media all and (min-width: 768px) {
+  .header2 {
+    display: none;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  body {
+    height: 3846px;
+    background-color: #fff;
+    background-image: url(./img/imgdes/img_form1.png), url(./img/imgdes/img_fom2.png), url(./img/imgdes/img_form3.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 250px 360px, 130px 106px, 223px 495px;
+    background-position: 0 3650px, 280px 3800px, 1220px 3510px;
+  }
+
+  #heading {
+    background-image: url(./img/imgdes/background_header.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 1434.3px;
+    position: relative;
+    top: -28px;
+  }
+
+  .bar {
+    position: relative;
+    width: 1440px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+    margin-top: -40px;
+    right: 3%;
+  }
+
+  .nav_bar ul {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    margin-left: 40px;
+  }
+
+  .nav_bar a {
+    width: 63px;
+    height: 20px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #344563;
+  }
+
+  .h1 {
+    width: 920px;
+    height: 114px;
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.37px;
+    color: #172b4d;
+    padding-top: 60px;
+  }
+
+  .supporting {
+    width: 780px;
+    height: 96px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #172b4d;
+    position: relative;
+    left: 65px;
+  }
+
+  #button_social {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    bottom: 20px;
+    left: -30px;
+  }
+
+  #vector {
+    display: contents;
+    border: none;
+    border-color: none;
+    background: none;
+  }
+
+  #vector img {
+    padding: 8px;
+    background: #fff;
+    border-radius: 32px;
+    position: relative;
+    bottom: 25px;
+    right: 15px;
+    border: transparent;
+  }
+
+  /* work section */
+
+  .work {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 24px;
+    position: absolute;
+    top: 1059px;
+    left: 115px;
+    width: 1171px;
+    height: 1000px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+    margin-top: 200px;
+  }
+
+  .work_title {
+    padding: 0;
+    margin: 0;
+    min-width: 450px;
+    white-space: nowrap;
+    justify-content: center;
+    position: absolute;
+    left: 40%;
+    top: 1200px;
+  }
+
+  .work_title h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .card {
+    width: 380px;
+    height: 498px;
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+    background: #ebf0ee;
+  }
+
+  .card_inside {
+    width: 380px;
+    height: 238px;
+    align-items: center;
+    position: relative;
+    top: 250px;
+    background: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+  }
+
+  .paragraph_card {
+    width: 337px;
+    height: 57px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    color: #172b4d;
+    padding: 10px;
+    position: relative;
+    margin: 0;
+    padding-top: 45px;
+  }
+
+  .stack {
+    width: 103px;
+    height: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #172b4d;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    right: 36%;
+    top: 10px;
+    justify-content: space-between;
+  }
+
+  .listw {
+    width: 103px;
+    height: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #172b4d;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+  }
+
+  .listw li {
+    padding: 8px 12px;
+    background: #ebf0ee;
+    border-radius: 4px;
+    position: relative;
+    left: 1px;
+  }
+
+  #button {
+    position: relative;
+    left: 1%;
+  }
+
+  /* About section */
+
+  .images_about {
+    display: contents;
+  }
+
+  .img_about1 {
+    position: absolute;
+    width: 288.04px;
+    height: 140.24px;
+    bottom: 55%;
+    left: -13%;
+  }
+
+  .img_about2 {
+    position: absolute;
+    width: 269.55px;
+    height: 244.78px;
+    bottom: 60%;
+    right: -13%;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    gap: 48px;
+    position: absolute;
+    width: 1171px;
+    height: 808px;
+    left: 115px;
+    top: 2300px;
+    background: none;
+  }
+
+  .text_about {
+    padding-left: 34%;
+  }
+
+  .text2_about {
+    width: 920px;
+    height: 96px;
+    font-size: 20px;
+    line-height: 32px;
+    padding-top: 15px;
+    position: relative;
+    left: 30px;
+  }
+
+  #button_resume {
+    position: relative;
+    left: 410px;
+    top: -20px;
+  }
+
+  .skills_container {
+    display: inline-grid;
+    align-items: center;
+    padding: 4px 8px;
+    grid-template-columns: auto auto auto;
+    gap: 24px;
+    width: 1171px;
+    height: 360px;
+    padding-top: 0;
+    margin-top: 0;
+    position: absolute;
+    top: 60%;
+    left: 1.5%;
+  }
+
+  .card_skills {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 368px;
+    height: 350px;
+    background: #ebf0ee;
+    border: 1px solid #c1c7d0;
+    border-radius: 8px;
+    padding: 4px;
+    margin: 2px;
+  }
+
+  #icons {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    padding: 15px;
+    top: 13%;
+    background: #fff;
+    box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
+    border-radius: 50%;
+  }
+
+  .skill_h2 {
+    position: relative;
+    top: 20%;
+    left: 20px;
+  }
+
+  .stack_skills1 {
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+  }
+
+  .stack_skills2 {
+    position: absolute;
+    bottom: 20px;
+    right: 440px;
+  }
+
+  .stack_skills3 {
+    position: absolute;
+    bottom: 35px;
+    right: 5px;
+  }
+
+  .frame {
+    position: relative;
+    top: 15px;
+  }
+
+  .stack_skills1 ul li {
+    font-size: 11px;
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+  }
+
+  .stack_skills2 ul li {
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+  }
+
+  .stack_skills3 ul li {
+    font-size: 11px;
+    letter-spacing: 0.03em;
+    padding: 10px;
+    background: #fff;
+    margin: 0;
+    border-radius: 8px;
+  }
+
+  /* contact section */
+
+  #img_contact {
+    display: none;
+  }
+
+  .contact-container {
+    position: absolute;
+    left: 10%;
+    top: 3000px;
+  }
+
+  .h2_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 463px;
+    height: 256px;
+    position: relative;
+    top: 100px;
+  }
+
+  .h2_contact h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    margin-left: 15px;
+    width: 463px;
+    height: 256px;
+    text-align: justify;
+  }
+
+  .form_container {
+    position: absolute;
+    top: 530px;
+    left: 160%;
+  }
+
+  .input_form input {
+    width: 684px;
+    height: 48px;
+  }
+
+  .text_area textarea {
+    width: 684px;
+    height: 114px;
+  }
+
+  #icon_textarea {
+    left: 670px;
+  }
+
+  #button_contact {
+    width: 129px;
+    height: 48px;
+    right: 280px;
+  }
+
+  #button_contact p {
+    width: 105px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .social_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 200px;
+    border-top: 1px solid #dfe1e6;
+    position: relative;
+    bottom: 50px;
+    left: 380px;
+  }
+
+  #p_footer {
+    position: relative;
+    left: 230%;
+    bottom: 70px;
+  }
 }
