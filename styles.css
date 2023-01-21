@@ -641,7 +641,6 @@ li {
   }
 
   body {
-    width: 1440px;
     height: 3846px;
     background-color: #fff;
     background-image: url(/img/imgdes/img_form1.png), url(/img/imgdes/img_fom2.png), url(/img/imgdes/img_form3.png);
@@ -649,7 +648,7 @@ li {
     background-size: 250px 360px, 130px 106px, 223px 495px;
     background-position: 0 3650px, 280px 3800px, 1200px 3510px;
   }
-
+  
   #heading {
     background-image: url(/img/imgdes/background_header.png);
     background-repeat: no-repeat;
