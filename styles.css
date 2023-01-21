@@ -1,7 +1,7 @@
 #heading {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(img/background3.png);
+  background-image: url(./img/background3.png);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -114,16 +114,22 @@ li {
 }
 
 #vector {
-  display: none;
+  display: contents;
+}
+
+#vector img {
+  position: relative;
+  top: 65px;
 }
 
 .work_title {
   position: absolute;
-  top: 760px;
+  top: 900px;
   left: 15%;
 }
 
 .work_title h2 {
+  font-family: 'Inter', sans-serif;
   display: flex;
   justify-self: center;
   margin: 0;
@@ -144,7 +150,7 @@ li {
   position: absolute;
   width: 355px;
   height: 2972px;
-  top: 860px;
+  top: 1000px;
   justify-content: center;
 }
 
@@ -274,7 +280,7 @@ li {
   width: 365px;
   height: 1625px;
   left: 1px;
-  top: 3927px;
+  top: 4100px;
   align-content: center;
   background-image: url(./img/frame_2.png), url(./img/frame_1.png);
   background-repeat: no-repeat;
@@ -299,7 +305,7 @@ li {
   font-size: 40px;
   line-height: 52px;
   position: relative;
-  bottom: 35px;
+  bottom: 40px;
 }
 
 .text2_about {
@@ -376,9 +382,14 @@ li {
 #icons {
   width: 80px;
   height: 80px;
-  padding: 80px 60px;
+  padding: 15px;
+  margin: 0;
+  background: #fff;
+  box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
+  border-radius: 50%;
   position: relative;
-  bottom: 55px;
+  bottom: 10px;
+
 }
 
 .skill_h2 {
@@ -392,7 +403,6 @@ li {
   text-align: center;
   color: #344563;
   position: relative;
-  bottom: 50px;
 }
 
 .stack_skills1 ul {
@@ -400,23 +410,26 @@ li {
   flex-direction: row;
   align-items: center;
   align-content: center;
-  padding: 0 30px;
   width: 271px;
   height: 40px;
   justify-content: space-between;
   text-align: center;
   position: relative;
-  bottom: 25px;
+  top: 5px;
+  right: 5px;
 }
 
 .card_skills ul li {
   font-family: 'inter', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
-  line-height: 14px;
+  font-size: 12px;
+  line-height: 16px;
   letter-spacing: 0.03em;
   color: #36c37e;
+  padding: 10px;
+  background: #FFFFFF;
+  border-radius: 8px;
 }
 
 .stack_skills2 ul {
@@ -431,13 +444,13 @@ li {
   height: 88px;
   padding-right: 16px;
   position: relative;
-  bottom: 35px;
+  top: 5px;
   right: 10px;
 }
 
-.stack_skills2 ul li {
-  line-height: 70px;
-}
+/* .stack_skills2 ul li {
+  line-height: 50px;
+} */
 
 .frame {
   display: flex;
@@ -446,6 +459,7 @@ li {
   gap: 40px;
   position: relative;
   left: 40px;
+  top: 15px;
 }
 
 .stack_skills3 ul {
@@ -454,13 +468,10 @@ li {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
   gap: 15px;
-  line-height: 100px;
-  padding-left: 16px;
   position: relative;
-  bottom: 35px;
+
+  right: 30px;
 }
 
 .frame_1 {
@@ -468,7 +479,8 @@ li {
   align-items: center;
   justify-content: center;
   position: relative;
-  left: 110px;
+  top: 55px;
+  right: 200px;
 }
 
 #button:visited {
@@ -505,7 +517,7 @@ li {
   position: absolute;
   width: 375px;
   height: 879px;
-  top: 5650px;
+  top: 5800px;
 }
 
 .h2_contact {
@@ -677,21 +689,20 @@ li {
   body {
     height: 3846px;
     background-color: #fff;
-    background-image: url(/img/imgdes/img_form1.png), url(/img/imgdes/img_fom2.png), url(/img/imgdes/img_form3.png);
+    background-image: url(./img/imgdes/img_form1.png), url(./img/imgdes/img_fom2.png), url(./img/imgdes/img_form3.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 250px 360px, 130px 106px, 223px 495px;
     background-position: 0 3650px, 280px 3800px, 1220px 3510px;
   }
 
   #heading {
-    background-image: url(/img/imgdes/background_header.png);
+    background-image: url(./img/imgdes/background_header.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 1472.8px;
+    width: 100vw;
     height: 1434.3px;
     position: relative;
     top: -28px;
-    right: 30px;
   }
 
   .bar {
@@ -1016,20 +1027,20 @@ li {
 
   .stack_skills1 {
     position: absolute;
-    bottom: 30px;
+    bottom: 60px;
     left: 20px;
   }
 
   .stack_skills2 {
     position: absolute;
-    bottom: -20px;
+    bottom: 20px;
     right: 440px;
   }
 
   .stack_skills3 {
     position: absolute;
-    bottom: -25px;
-    right: 40px;
+    bottom: 35px;
+    right: 5px;
   }
 
   .frame {
