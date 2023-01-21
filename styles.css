@@ -617,8 +617,6 @@ li {
   color: #42526e;
 }
 
-
-
 #button_contact:visited {
   background-color: #008552;
 }
@@ -1108,6 +1106,12 @@ li {
     line-height: 24px;
   }
 
+  body {
+    background-image: url(/img/imgdes/img_form1.png), url(/img/imgdes/img_fom2.png), url(/img/imgdes/img_form3.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 250px 360px, 130px 106px, 223px 495px;
+    background-position: 0px 3650px, 280px 3800px, 1220px 3510px;
+  }
 
   .footer_part nav{
     display: contents;
