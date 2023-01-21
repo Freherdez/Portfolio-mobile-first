@@ -646,9 +646,9 @@ li {
     background-image: url(/img/imgdes/img_form1.png), url(/img/imgdes/img_fom2.png), url(/img/imgdes/img_form3.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 250px 360px, 130px 106px, 223px 495px;
-    background-position: 0 3650px, 280px 3800px, 1200px 3510px;
+    background-position: 0 3650px, 280px 3800px, 1220px 3510px;
   }
-  
+
   #heading {
     background-image: url(/img/imgdes/background_header.png);
     background-repeat: no-repeat;
@@ -670,7 +670,7 @@ li {
     align-content: center;
     list-style: none;
     margin-top: -40px;
-    right: 5%;
+    right: 3%;
   }
 
   .nav_bar ul {
@@ -724,7 +724,7 @@ li {
     text-align: center;
     color: #172b4d;
     position: relative;
-    left: 60px;
+    left: 65px;
   }
 
   #button_social {
